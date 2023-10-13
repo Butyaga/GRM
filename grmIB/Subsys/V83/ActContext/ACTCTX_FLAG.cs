@@ -1,0 +1,15 @@
+﻿using System;
+
+[Flags]
+public enum ACTCTX_FLAG : uint
+{
+    NONE                         = 0x00000000,
+    PROCESSOR_ARCHITECTURE_VALID = 0x00000001,
+    LANGID_VALID                 = 0x00000002,
+    ASSEMBLY_DIRECTORY_VALID     = 0x00000004,
+    RESOURCE_NAME_VALID          = 0x00000008,
+    SET_PROCESS_DEFAULT          = 0x00000010,
+    APPLICATION_NAME_VALID       = 0x00000020,
+    SOURCE_IS_ASSEMBLYREF        = 0x00000040,
+    HMODULE_VALID                = 0x00000080
+}
