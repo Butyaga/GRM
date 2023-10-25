@@ -77,7 +77,7 @@ namespace grmIB
         {
             if (string.IsNullOrEmpty(AuthToken))
             {
-                AuthToken = "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1NTczMSIsImlhdCI6MTY4MTEyNzc3NH0.EC_pDkLokTFKYAzKSMYGiPI_btI7p1SsHE50DjJB-6c";
+                AuthToken = "1C_TokenGRM_qqwerasdfzxcv";
                 GRMRemouteFileAddVersion = false;
                 GRMRemouteFileAddDate = false;
                 GRMRemouteFileAddTime = false;
